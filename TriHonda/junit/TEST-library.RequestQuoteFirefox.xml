@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="nycpusagolube.local" name="library.RequestQuoteFirefox" tests="1" time="39.78" timestamp="2014-05-15T20:40:02">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="env.APP_ICON_46500" value="../Resources/Eclipse.icns" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_46500" value="1" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="env.TMPDIR" value="/var/folders/gd/k5lsk02s4gdbr4f350qydgwnxp8pg6/T/" />
+    <property name="env.Apple_Ubiquity_Message" value="/tmp/launch-uWjG2o/Apple_Ubiquity_Message" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_47308" value="1" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="java.runtime.version" value="1.6.0_51-b11-457-11M4509" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-PzBdzC/Render" />
+    <property name="user.name" value="agolubev1" />
+    <property name="env.USER" value="agolubev1" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x7B6459E6:0:0" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="TriHonda" />
+    <property name="env.JAVA_MAIN_CLASS_47308" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="java.version" value="1.6.0_51" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../Screen shots/oralb/eclipse" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="agolubev1" />
+    <property name="ant.file" value="/Users/agolubev1/Desktop/Automation/TriHonda/build.xml" />
+    <property name="os.version" value="10.8.5" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.51-b01-457" />
+    <property name="ant.library.dir" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts//" />
+    <property name="ant.file.type.TriHonda" value="file" />
+    <property name="user.home" value="/Users/agolubev1" />
+    <property name="target" value="1.6" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner library.RequestQuoteFirefox filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/agolubev1/Desktop/Automation/TriHonda/junit/TEST-library.RequestQuoteFirefox.xml crashfile=/Users/agolubev1/Desktop/Automation/TriHonda/junitvmwatcher4726283717527988196.properties propsfile=/Users/agolubev1/Desktop/Automation/TriHonda/junit1741586568294789955.properties" />
+    <property name="java.class.path" value="/Users/agolubev1/Desktop/Automation/TriHonda/bin:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/junit-4.11.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/jxl-2.6.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/selenium-server-2.37.0.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/jxl.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-fileupload-1.3.1.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-1.1.3-javadoc.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-1.1.3-sources.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-1.1.3-test-sources.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-1.1.3-tests.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-1.1.3.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-adapters-1.1.3.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-api-1.1.3.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-logging-tests.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-io-2.4-javadoc.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-io-2.4-sources.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-io-2.4-test-sources.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-io-2.4-tests.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/commons-io-2.4.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/selenium-server-standalone-2.37.0.jar:/Users/agolubev1/Desktop/Automation/TriHonda/src/library/selenium-java-2.41.0.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.junit_4.10.0.v4_10_0_v20120426-0900/junit.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-launcher.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit.jar:/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="env.com.apple.java.jvmMode" value="client" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.HOME" value="/Users/agolubev1" />
+    <property name="env.ANT_HOME" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="java.io.tmpdir" value="/var/folders/gd/k5lsk02s4gdbr4f350qydgwnxp8pg6/T/" />
+    <property name="eclipse.pdebuild.home" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/.//" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-RQcUan/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="mrj.build" value="11M4509" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/agolubev1/Desktop/Automation/TriHonda" />
+    <property name="env.com.apple.java.jvmTask" value="CommandLine_Manual.java" />
+    <property name="mrj.version" value="1070.1.6.0_51-457" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/agolubev1/Desktop/Automation/TriHonda" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/Users/agolubev1/Desktop/Screen shots/oralb/eclipse/plugins/org.apache.ant_1.8.3.v20120321-1730/lib/ant.jar" />
+    <property name="source" value="1.6" />
+    <property name="file.encoding" value="MacRoman" />
+    <property name="ant.file.TriHonda" value="/Users/agolubev1/Desktop/Automation/TriHonda/build.xml" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="RequestQuoteFirefox,build" />
+  </properties>
+  <testcase classname="library.RequestQuoteFirefox" name="searchGoogle" time="39.675">
+    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;&#xa;System info: host: &apos;663131IE9-93-73&apos;, ip: &apos;5.255.93.73&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.0&apos;, java.version: &apos;1.7.0_51&apos;&#xa;Driver info: driver.version: FirefoxDriver&#xa;Command duration or timeout: 1.10 seconds&#xa;Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cb&apos;, time: &apos;2013-10-18 17:14:21&apos;&#xa;System info: host: &apos;nycpusagolube.local&apos;, ip: &apos;10.6.12.50&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_51&apos;&#xa;Session ID: 4c11ee5d7c83b7e4821cac48bd5c7aa8614b0cf7&#xa;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#xa;Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=false, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=4c11ee5d7c83b7e4821cac48bd5c7aa8614b0cf7, version=22.0, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;663131IE9-93-73&apos;, ip: &apos;5.255.93.73&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.0&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: FirefoxDriver
+Command duration or timeout: 1.10 seconds
+Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cb&apos;, time: &apos;2013-10-18 17:14:21&apos;
+System info: host: &apos;nycpusagolube.local&apos;, ip: &apos;10.6.12.50&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_51&apos;
+Session ID: 4c11ee5d7c83b7e4821cac48bd5c7aa8614b0cf7
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{platform=XP, javascriptEnabled=true, acceptSslCerts=false, browserName=firefox, rotatable=false, locationContextEnabled=true, webdriver.remote.sessionid=4c11ee5d7c83b7e4821cac48bd5c7aa8614b0cf7, version=22.0, databaseEnabled=true, cssSelectorsEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, webStorageEnabled=true, nativeEvents=false, applicationCacheEnabled=true, takesScreenshot=true}]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:193)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:554)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:32)
+	at org.openqa.selenium.remote.AddTakesScreenshot$1.invoke(AddTakesScreenshot.java:36)
+	at org.openqa.selenium.remote.Augmenter$CompoundHandler.intercept(Augmenter.java:286)
+	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$bc2956a9.getScreenshotAs(&lt;generated&gt;)
+	at library.RequestQuoteFirefox.searchGoogle(RequestQuoteFirefox.java:125)
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.41.0&apos;, revision: &apos;3192d8a&apos;, time: &apos;2014-03-27 17:17:32&apos;
+System info: host: &apos;663131IE9-93-73&apos;, ip: &apos;5.255.93.73&apos;, os.name: &apos;windows&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.0&apos;, java.version: &apos;1.7.0_51&apos;
+Driver info: driver.version: FirefoxDriver
+Build info: version: &apos;2.37.0&apos;, revision: &apos;a7c61cb&apos;, time: &apos;2013-10-18 17:14:21&apos;
+System info: host: &apos;nycpusagolube.local&apos;, ip: &apos;10.6.12.50&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.8.5&apos;, java.version: &apos;1.6.0_51&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:610)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:323)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:35)
+	at org.openqa.selenium.remote.server.handler.CaptureScreenshot.call(CaptureScreenshot.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:170)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</error>
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at library.RequestQuoteFirefox.tearDown(RequestQuoteFirefox.java:147)
+</error>
+  </testcase>
+  <system-out><![CDATA[Faield to find the button 1
+Faield to find the button http://dev.trihonda.pkt-tech.com/vehicles/details?modelId=9&trimId=262
+Faield to find the button 2
+Faield to find the button http://dev.trihonda.pkt-tech.com/vehicles/details?modelId=6&trimId=72
+Faield to find the button 3
+Faield to find the button http://dev.trihonda.pkt-tech.com/vehicles/details?modelId=9&trimId=263
+Faield to find the button 4
+Faield to find the button http://dev.trihonda.pkt-tech.com/vehicles/details?modelId=9&trimId=264
+Faield to find the button 5
+Faield to find the button http://dev.trihonda.pkt-tech.com/vehicles/details?modelId=10&trimId=265
+Faield to find the button 6
+Faield to find the button http://3.bp.blogspot.com/-eEsFu-Ge3xY/UONhpJaMUII/AAAAAAAAEn8/WYznibgDyH0/s640/The+End+3.jpg
+Faield to find the button 6
+]]></system-out>
+  <system-err><![CDATA[Warning:  Property storage name for 5 is empty - setting to Root Entry
+]]></system-err>
+</testsuite>
