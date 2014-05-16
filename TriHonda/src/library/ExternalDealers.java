@@ -43,6 +43,7 @@ int count=0;
 String url_failed ="";
 String local=(new java.io.File("").getAbsolutePath());
 String data="" + local + "/" + "externaldealers.xls";
+String name ="";
 @Before
 public void setUp()
 {
@@ -62,10 +63,10 @@ driver.manage().window().maximize();
 
 public void searchGoogle() throws Exception {
 //FileInputStream fi = new FileInputStream("/home/ewillis/workspace/TriHondaScripts/TriHonda/lib/externaldealers.xls");
-	InputStream fi=null;
-	fi= new FileInputStream(data);
-	Workbook w = Workbook.getWorkbook(fi);
-	s = w.getSheet(0);
+  InputStream fi=null;
+  fi= new FileInputStream(data);
+  Workbook w = Workbook.getWorkbook(fi);
+  s = w.getSheet(0);
 String myTitle = driver.getTitle();
 //Capabilities caps = ((RemoteWebDriver) driver).getCapabilities();
 //String browserName = caps.getBrowserName();
@@ -74,11 +75,12 @@ String myTitle = driver.getTitle();
 //System.out.println("==========");
 
 for(int row=1; row <=s.getRows();row++) {
-	
-	try {
+  
+  try {
 
 
 String urlname = s.getCell(0, row).getContents();
+String dealer = s.getCell(2, row).getContents();
 driver.get(urlname);
 count+=1;
 url_failed=urlname;
@@ -108,20 +110,20 @@ try {
             }
 
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-FileUtils.copyFile(scrFile1, new File("ExternalMapPageLinks" + "/" + row + "-" + "external-dealer.png"));
+FileUtils.copyFile(scrFile1, new File("ExternalMapPageLinks" + "/" + row + "-" + dealer +".png"));
 //((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
 
-	} catch (Exception ex){
-    	
-	    
-    	
-    	WebDriver augmentedDriver = new Augmenter().augment(driver);
-    	System.out.println("Faield to find the link ");
-    	File screenshotfailed = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
-    	FileUtils.copyFile(screenshotfailed, new File("ExternalMapPageLinksFailed" +   "/" + count + "-" + "failed.png"));
+  } catch (Exception ex){
+      
+      
+      
+      WebDriver augmentedDriver = new Augmenter().augment(driver);
+      System.out.println("Faield to find the link ");
+      File screenshotfailed = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
+      FileUtils.copyFile(screenshotfailed, new File("ExternalMapPageLinksFailed" +   "/" + count + "-" + "failed.png"));
         //e.printStackTrace();
-    	System.out.println("Faield to find the button " +url_failed);
-    	continue;
+      System.out.println("Faield to find the button " +url_failed);
+      continue;
     }  
 }
 }
