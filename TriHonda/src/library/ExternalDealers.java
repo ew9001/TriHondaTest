@@ -110,19 +110,14 @@ try {
             }
 
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-FileUtils.copyFile(scrFile1, new File("ExternalMapPageLinks" + "/" + row + "-" + dealer +".png"));
+FileUtils.copyFile(scrFile1, new File("ExternalPagess" + "/" + row + "-" + dealer +".png"));
 //((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
 
   } catch (Exception ex){
       
       
       
-      WebDriver augmentedDriver = new Augmenter().augment(driver);
-      System.out.println("Faield to find the link ");
-      File screenshotfailed = ((TakesScreenshot)augmentedDriver).getScreenshotAs(OutputType.FILE);
-      FileUtils.copyFile(screenshotfailed, new File("ExternalMapPageLinksFailed" +   "/" + count + "-" + "failed.png"));
-        //e.printStackTrace();
-      System.out.println("Faield to find the button " +url_failed);
+      
       continue;
     }  
 }
