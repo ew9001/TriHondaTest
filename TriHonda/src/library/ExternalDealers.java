@@ -37,10 +37,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class ExternalDealers{
 Sheet s;
 WebDriver driver;
-private StringBuffer verificationErrors = new StringBuffer();
-static String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
 int count=0;
-String url_failed ="";
 String local=(new java.io.File("").getAbsolutePath());
 String data="" + local + "/" + "externaldealers.xls";
 String name ="";
@@ -63,8 +60,8 @@ driver.manage().window().maximize();
 
 public void searchGoogle() throws Exception {
 //FileInputStream fi = new FileInputStream("/home/ewillis/workspace/TriHondaScripts/TriHonda/lib/externaldealers.xls");
-  InputStream fi=null;
-  fi= new FileInputStream(data);
+
+   InputStream  fi= new FileInputStream(data);
   Workbook w = Workbook.getWorkbook(fi);
   s = w.getSheet(0);
 String myTitle = driver.getTitle();
@@ -83,8 +80,7 @@ String urlname = s.getCell(0, row).getContents();
 String dealer = s.getCell(2, row).getContents();
 driver.get(urlname);
 count+=1;
-url_failed=urlname;
-driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 
 java.util.List<WebElement> list=driver.findElements(By.xpath("//a"));
@@ -99,7 +95,7 @@ for(WebElement link:list)
 
 
 
-Thread.sleep(3000);
+Thread.sleep(1000);
 try {
         (new Robot()).keyPress(java.awt.event.KeyEvent.VK_ENTER);
 
