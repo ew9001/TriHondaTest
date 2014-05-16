@@ -110,7 +110,7 @@ try {
             }
 
     File scrFile1 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-FileUtils.copyFile(scrFile1, new File("ExternalPagess" + "/" + row + "-" + dealer +".png"));
+FileUtils.copyFile(scrFile1, new File("/ExternalPagess" + "/" + row + "-" + dealer +".png"));
 //((Rotatable) driver).rotate(ScreenOrientation.PORTRAIT);
 
   } catch (Exception ex){
